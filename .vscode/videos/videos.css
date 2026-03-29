@@ -1,0 +1,30 @@
+body {
+  background-color: #1a1a2e;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.video-container {
+  border: 5px solid #6a00f4;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background: #000;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}

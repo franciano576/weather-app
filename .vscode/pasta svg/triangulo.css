@@ -1,0 +1,18 @@
+svg {
+  width: 200px;
+  height: 200px;
+}
+
+polygon {
+  fill: red; /* cor de preenchimento */
+  stroke: none; /* cor da borda */
+  stroke-width: 3;
+} /* espessura da borda */
+line {
+  stroke-width: 3;
+}
+text {
+  fill: yellow; /* cor das letras */
+  font-size: 12px;
+  font-weight: bold;
+}

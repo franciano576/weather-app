@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Previsão do Tempo</h1>
+      <div class="search">
+        <input id="city" type="text" placeholder="Digite a cidade" />
+        <button onclick="getWeather()">Buscar</button>
+        <button onclick="getLocationWeather()" class="location-btn">
+          Usar Minha Localização
+        </button>
+      </div>
+  <div id="loader" class="hidden show">Carregando...</div>
+      <div id="result-today"></div>
+      <div id="result-forecast"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

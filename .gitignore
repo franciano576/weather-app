@@ -1,0 +1,7 @@
+# Git ignore for VSCode and Node
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+node_modules/
+.DS_Store
+

@@ -1,0 +1,10 @@
+svg {
+  width: 400px;
+  height: 400px;
+}
+
+polygon {
+  fill: lightseagreen;
+  stroke: black;
+  stroke-width: 2;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>tabela</title>
+  </head>
+  <body>
+    <h2>Tabela Dinâmica com cadastro e Exclusão</h2>
+    <!-- Formulário para inseri dados-->
+
+    <div>
+      <input type="text" id="nome" placeholder="Nome" />
+      <input type="number" id="idade" placeholder="Idade" />
+      <input type="text" id="cidade" placeholder="Cidade" />
+      <button onclick="adicionarLinha()">Adicionar</button>
+    </div>
+
+    <!--tabela-->
+
+    <table id="minhaTabela">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Cidade</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Ana</td>
+          <td>25</td>
+          <td>São Paulo</td>
+          <td>
+            <button class="delete-btn" onclick="excluirLinha(this)">
+              Excluir
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Bruno</td>
+          <td>30</td>
+          <td>Rio de Janeiro</td>
+          <td>
+            <button class="delete-btn" onclick="excluirLinha(this)">
+              Excluir
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="main.js"></script>
+  </body>
+</html>

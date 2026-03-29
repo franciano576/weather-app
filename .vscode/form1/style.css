@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(green, blue, orange);
+  opacity: 8px;
+}
+
+.container {
+  text-align: center;
+  border: solid black 1px;
+  margin-top: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 5%;
+  border-radius: 20px;
+  background: linear-gradient(gray, pink, green);
+}
+input {
+  color: gray;
+  font-size: 25px;
+  border: solid gray 2px;
+}
+
+submit {
+  background: linear-gradient(pink, purple);
+}

@@ -1,0 +1,10 @@
+svg {
+  width: 200px;
+  height: 200px;
+}
+
+circle {
+  fill: green;
+  stroke: rgb(199, 29, 29);
+  stroke-width: 3;
+}
