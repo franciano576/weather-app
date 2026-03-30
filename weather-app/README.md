@@ -25,7 +25,7 @@ Tempo: Rápido protótipo → app completo funcional.
 | **JS** | Vanilla JavaScript ES6+ (async/await, fetch, eventListeners, DOM) |
 | **APIs** | OpenWeatherMap (clima), Nominatim OSM (geocode) |
 | **Browser** | Geolocation API, localStorage |
-| **Tools** | VS Code, GitHub, Chrome DevTools |
+| **Tools** | VS Code, Git/GitHub para versionamento |
 
 **Sem frameworks/libs** - puro vanilla!
 
@@ -55,17 +55,21 @@ Tempo: Rápido protótipo → app completo funcional.
 ## 📁 Estrutura do Projeto
 ```
 weather-app/
-├── index.html     # UI principal
+├── index.html     # Interface principal (abra este!)
 ├── style.css      # Design responsivo
-├── main.js        # Toda lógica (APIs + GPS)
-├── demo-data.js   # Dados mock teste
-└── README.md      # 📖 Você está aqui!
+├── main.js        # Lógica APIs + GPS
+├── demo-data.js   # Mock teste
+└── README.md      # Você aqui!
 ```
 
-## 🔗 Links
-- **Live Demo**: [GitHub Pages](https://franc**iano.github.io/weather-app)
-- **APIs**: [OpenWeather](https://openweathermap.org) | [Nominatim](https://nominatim.openstreetmap.org)
+## 🔗 Live Demo
+404? Configure **GitHub Pages**:
+1. Repo Settings → Pages
+2. Source: "Deploy from branch main" + "/ (root)"
+3. Salva → https://franc**iano.github.io/recapitulando vira demo live!
 
-**Open Source 100% gratuito** - fork, star, contribua! ⭐
+Local: `index.html` abre direto (reconhecido navegador).
 
-Desenvolvido com ❤️ por Franciano
+**Open Source gratuito** - star/contribua! ⭐
+
+Feito com ❤️ por Franciano
